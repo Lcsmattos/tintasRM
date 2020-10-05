@@ -1,0 +1,86 @@
+ 
+#body-container {
+    background-image: linear-gradient(#5F9EA0,  #66CDAA);
+    padding: 30px;
+    width: auto;
+    height: 500px;
+}
+
+#body-container .nav_tabs {
+    width: auto;
+    height: 100%;
+    background-color: #fff;
+    position: relative;
+}
+
+#body-container .nav_tabs ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #363b48;
+}
+
+#body-container .nav_tabs ul li{
+    float: left;
+    width: auto;
+}
+#body-container .nav_tabs label {
+    width: auto;
+    margin: 10px;
+    background-color: #363b48;
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+#body-container .nav_tabs ul li .content {
+    width: auto;
+    height: auto;
+}
+
+#body-container .nav_tabs ul li .content article {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#body-container .nav_tabs ul li .content h1 {
+    font: 400 2rem 'Poppins';
+}
+
+#body-container .nav_tabs ul li .content p1 {
+    font: 300 1.6rem 'Poppins';
+    text-align: justify;
+}
+
+#body-container .nav_tabs ul li .content img {
+    height: 200px;
+    width: 200px;
+}
+
+#body-container .rd_tabs:checked ~ label {
+    background-color: #e54e43;
+}
+
+#body-container .rd_tabs {
+    display: none;
+}
+
+#body-container .content {
+    border-top: 5px solid #e54e43;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    height: 320px;
+    width: auto;
+    left: 1px;
+}
+
+#body-container .rd_tabs:checked ~ .content {
+    display: block;
+    width: auto;
+    height: auto;
+}
+

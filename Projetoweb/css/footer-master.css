@@ -1,0 +1,46 @@
+/* Inicio do Footer*/
+
+#footer-master .footer {
+    margin-top: -5px;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(#66CDAA, #B0C4DE);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#footer-master .footer .footer-dados {
+    padding: 3rem;
+    align-items: top;
+}
+
+#footer-master .footer .footer-dados h1 {
+    font: 700 2.4rem Poppins;
+}
+
+#footer-master .footer .footer-dados p2 {
+    font: 500 1.6rem Poppins;
+    line-height: 2.6rem;
+}
+
+#footer-master .footer .footer-dados .footer-mapa {
+    width: auto;
+}
+
+#footer-master .footer .footer-dados .footer-imagem .rm-logo-footer {
+    height: 15rem;
+    border: 10px inset #FF8C00;
+    border-radius: 10px;
+}
+
+#footer-master .copyright {
+    width: auto;
+    font: 500 1.6rem Poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E0FFFF;
+}

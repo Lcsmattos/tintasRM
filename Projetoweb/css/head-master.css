@@ -1,0 +1,126 @@
+:root {
+    font-size: 60%;
+}
+html {
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+  }
+/* Inicio do cabeçalho com barra de pesquisa e menu*/
+
+#head-master .page-header .top-bar-container {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #708090;
+}
+
+#head-master .page-header .top-bar-container .rm-logo-header {
+    height: 12rem;
+    border: 10px inset #FF8C00;
+    border-radius: 10px;
+}
+
+#head-master .page-header .top-bar-container .shopping-cart {
+    height: 2.5rem;
+}
+
+#head-master .page-header .quick-search {
+    margin-top: -1px;
+    margin-bottom: -1px;
+    padding: 2rem;
+    width: auto;
+    background-image: linear-gradient(#708090, #5F9EA0);
+    display: flex;
+    justify-content: space-around;
+}
+
+#head-master .page-header .quick-search .search-button {
+    background: #DAA520;
+    border: 0;
+    border-radius: 0 0.8rem 0.8rem 0;
+    cursor: pointer;
+}
+
+
+#head-master .page-header .quick-search .quick-search-form {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#head-master .page-header .quick-search .quick-search-form .search-input {
+    width: 80%;
+    height: 3rem;
+    padding-left: 1rem; 
+}    
+
+#head-master .page-header .hard-menu {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #5F9EA0;
+    display: flex;
+    justify-content: center;
+}
+
+#head-master .page-header .hard-menu .menu {
+    width: auto;
+}
+
+#head-master .page-header .hard-menu .menu-list {
+    width: 100vw;
+}
+
+#head-master .page-header .hard-menu .menu .menu-item {
+   
+    font: 900 10rem 'Poppins';
+    background-image: radial-gradient(#E6E6FA, #5F9EA0);
+    border-radius: 30px;
+}
+
+#head-master .page-header .hard-menu .menu .menu-item .menu-item-title {
+    
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font: 500 3rem 'Baloo Tamma 2';
+    color: black;
+}
+
+/*inicio do media de apresentação */
+
+@media (min-width: 700px) {
+    #head-master .page-header .hard-menu {
+        font-size: 5rem;
+        width:auto;
+    }
+
+    #head-master .page-header .hard-menu .menu {
+        width:auto;
+    }
+
+    #head-master .page-header .hard-menu .menu .menu-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #head-master .page-header .hard-menu .menu .menu-list .menu-item {
+        width: 20vw;
+    }
+
+    #head-master .page-header .hard-menu .menu .menu-list .menu-item .menu-item-title {
+        font: 500 2rem Poppins;
+        height: 6rem;
+    }
+}
